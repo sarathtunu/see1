@@ -1,0 +1,171 @@
+
+	<div class="homeportal">
+		<header>
+			<nav class="navbar navbar-default mainheader navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed"
+						 type="button">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a [routerLink]= "['/index.html']" class="navbar-brand">
+							<img src="assets/images/logo.png" alt="logo" class="img-responsive">
+						</a>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar" aria-expanded="true" style="">
+						<a type="button" class="btn btn-success navbar-right loginbtn" href="https://portal.seamlesscare.ca">Sign In</a>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a [routerLink]= "['/index']">About
+									<br/> Seamless Care</a>
+							</li>
+							<li>
+								<a [routerLink]= "['/medication']">Medication
+									<br/> Management</a>
+							</li>
+							<li>
+								<a [routerLink]= "['/training']">Education Portal</a>
+							</li>
+							<li class="active">
+								<a [routerLink]="['/homeportal']">Home Portal</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--/.nav-collapse -->
+			</nav>
+		</header>
+
+
+		<div class="homeportal">
+			<div class="container">
+				<div class="row">
+					<div class="heading">
+						<div class="heading newhead col-md-8 midcolumn">
+							<figure class="heading-logo">
+								<img src="assets/images/Seamless_Care_HP_logo_white.png" alt="SEAMLESS HOME PORTAL" />
+							</figure>
+						</div>
+					</div>
+					<div class="heading newhead col-md-8 midcolumn">
+						<p>Empower your teams by providing them with a mobile tool that connects them with our healthcare professionals in real time. The Home Portal provides access to each individual’s complete and current medication records from your mobile device. </p>
+						<button type="button" data-toggle="modal" data-target="#sign_up_modal" class="learn_more btn btn-success" (click)="openDialog()">Sign Up</button>
+					</div>
+					<div class="imgcol clearfix img-animation-flyup">
+					<img src="assets/images/seamlessimage.png" alt="seamlessimage" class="img-responsive">
+					</div>
+						<ul class="nav infobox col-md-7 midcolumn">
+							<li>
+								<strong>Increase collaboration </strong>
+								<p>Quickly access our helpful, knowledgeable team with our Home Portal app.</p>
+							</li>
+							<li>
+								<strong>Increase visibility </strong>
+								<p>View medication changes for the people you support with real-time app notifications for orders and medication changes. </p>
+							</li>
+							<li>
+								<strong>Increase efficiency</strong>
+								<p>Receive data directly from the pharmacy in real-time using Home Portal.</p>
+							</li>
+							<li>
+								<strong>Improve quality of service</strong>
+								<p>Create, update, and monitor PRN medication administrations to improve their effectiveness and reduce the likelihood of repeat doses.  </p>
+							</li>
+						</ul>
+
+
+			</div>
+
+
+			</div>
+		</div>
+
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<b>Get in touch</b>
+					<div class="clearfix footerbox">
+						<address class="col-sm-6 col-md-6">
+							<span>
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<a href="tel:1-877-666-9502"> 1-877-666-9502</a>
+								<br/>
+							</span>
+							<span>
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<a href="mailto:info@seamlesscare.ca"> info@seamlesscare.ca</a>
+							</span>
+						</address>
+						<div class="col-sm-6 col-md-6">
+							<div class="followus navbar-right">
+								<p>Follow Us</p>
+								<ul class="navbar-nav nav ">
+									<li>
+										<a href="#">
+											<img src="assets/images/facebook_i.png" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="assets/images/twitter_i.png" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="assets/images/ledin_i.png" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="assets/images/youtube_i.png" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="assets/images/instagram_i.png" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix footernav">
+						<div class="col-sm-4 col-md-4 nopadding">
+							<ul class="nav">
+								<li>
+									<a href="#">Why Seamless</a>
+								</li>
+								<li>
+									<a href="medication.html">Medication Management</a>
+								</li>
+								<li>
+									<a href="training.html">Education Portal</a>
+								</li>
+								<li>
+									<a href="homeportal.html">Home Portal</a>
+								</li>
+								<li>
+									<a href="contactus.html">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-8 col-md-8 nopadding">
+							<span class="navbar-right">
+								<img src="assets/images/footerlogo.png" alt="footerlogo" class="img-responsive">
+							</span>
+						</div>
+					</div>
+					<div class="copyright">
+						<span>Copyright Seamless Care 2018</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Modals -->

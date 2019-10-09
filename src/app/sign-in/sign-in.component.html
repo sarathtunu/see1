@@ -1,0 +1,57 @@
+<!-- Sign Up Modal -->
+<div class="fade modal" id="sign_up_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-form">
+      <div class="modal-header">
+        <h5 class="modal-title col-11" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" id="signUpForm" [formGroup]="signInFrom" (ngSubmit)='submit()'>
+          <fieldset>
+            <legend>Please fill out the information below</legend>
+
+            <div class="form-group row">
+              <label for="i1" class="col-sm-3 control-label">*Your name</label>
+              <div class="col-sm-9">
+                <input name="name" type="text" class="form-control" formControlName="name" id="i1" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="i3" class="col-sm-3 control-label">*Email</label>
+              <div class="col-sm-9">
+                <input name="email" type="email" class="form-control" formControlName="email" id="i3">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="i2" class="col-sm-3 control-label">Organization</label>
+              <div class="col-sm-9">
+                <input name="organization" type="text" class="form-control" formControlName="organization" id="i2" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="i4" class="col-sm-3 control-label">Phone #</label>
+              <div class="col-sm-9">
+                <input name="tel" type="number" class="form-control" formControlName="tel" id="i4">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="i6" class="col-sm-3 control-label">Comment</label>
+              <div class="col-sm-9">
+                <textarea name="comment" class="form-control" formControlName="comment" id="i6"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <button type="submit" class="btn btn-default submit" id="submitForm">Send</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+

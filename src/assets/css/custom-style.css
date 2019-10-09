@@ -1,0 +1,2338 @@
+@font-face {
+  font-family: "BrandonGrotesque-Regular";
+  src: url("../fonts/BrandonGrotesque-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BrandonGrotesque-Regular.otf") format("opentype"),
+    url("../fonts/BrandonGrotesque-Regular.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Regular.ttf") format("truetype"),
+    url("../fonts/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque-Black";
+  src: url("../fonts/BrandonGrotesque-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BrandonGrotesque-Black.otf") format("opentype"),
+    url("../fonts/BrandonGrotesque-Black.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Black.ttf") format("truetype"),
+    url("../fonts/BrandonGrotesque-Black.svg#BrandonGrotesque-Black")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque-Bold";
+  src: url("../fonts/BrandonGrotesque-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/BrandonGrotesque-Bold.otf") format("opentype"),
+    url("../fonts/BrandonGrotesque-Bold.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype"),
+    url("../fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "brandon_grotesquemedium";
+  src: url("../fonts/brandon_med-webfont.woff2") format("woff2"),
+    url("../fonts/brandon_med-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "BrandonGrotesque-Regular";
+}
+header {
+  min-height: 130px;
+}
+
+.maincontainer {
+  overflow: hidden;
+}
+.mainheader {
+  background: #fff;
+  border: medium none;
+  border-radius: 0;
+  min-height: auto;
+  padding: 30px 0;
+  margin: 0;
+  transition: all 0.4s linear;
+}
+.mainheader.top-nav-collapse {
+  padding: 5px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.navbar-default.mainheader .navbar-nav > li > a {
+  color: #5b2c60;
+  font-size: 19px;
+  font-family: "BrandonGrotesque-Bold";
+}
+
+.navbar-default.mainheader .navbar-nav > .active > a,
+.navbar-default.mainheader .navbar-nav > .active > a:focus,
+.navbar-default.mainheader .navbar-nav > .active > a:hover {
+  background: none;
+  color: #fbd805;
+}
+.navbar-default.mainheader .navbar-nav > li > a:focus,
+.navbar-default.mainheader .navbar-nav > li > a:hover {
+  color: #fbd805;
+}
+.btn.btn-success.navbar-right.loginbtn {
+  background: #5b2c60 none repeat scroll 0 0;
+  border-color: #5b2c60;
+  font-size: 24px;
+  padding: 3px 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.btn.btn-success.navbar-right.loginbtn:focus,
+.btn.btn-success.navbar-right.loginbtn:hover {
+  background: #ffda00 none repeat scroll 0 0;
+  border-color: #ffda00;
+  color: #5b2c60;
+}
+.item .slide {
+  margin: 0 auto;
+  width: 100%;
+}
+.carousel-caption {
+  text-align: left;
+  top: 20px;
+  width: 26%;
+}
+.carousel-caption p {
+  font-size: 25px;
+  line-height: 31px;
+  text-shadow: none;
+}
+.carousel-caption em {
+  color: #ffda00;
+  padding-right: 2px;
+}
+.carousel-caption em:first-child {
+  margin-left: -19px;
+}
+.carousel-caption.txtbtm em:first-child {
+  margin-left: -25px;
+}
+.carousel-indicators .active {
+  background-color: #ffda00;
+  border-color: #ffda00;
+}
+.carousel-indicators li {
+  background-color: #fff;
+}
+.carousel-indicators {
+  width: auto;
+}
+.mission {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcfbfc+28,cfc5d2+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #fcfbfc 28%,
+    #cfc5d2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #fcfbfc 28%,
+    #cfc5d2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #fcfbfc 28%,
+    #cfc5d2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfc5d2',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.heading {
+  text-align: center;
+  padding: 117px 0 0;
+}
+.heading strong {
+  font-size: 30px;
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-weight: normal;
+}
+.mission .heading strong,
+.educationportal .heading strong,
+.homeportal .heading strong {
+  font-family: "BrandonGrotesque-Black";
+}
+.homeportal .heading p, .homeportal .heading strong {
+  color: white;
+}
+
+.homeportal .img-animation-flyup {
+  animation-name: flyUp;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes flyUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heading-logo {
+  margin: 0 auto 20px;
+  width: 300px;
+}
+
+#emar .heading-logo {
+  padding-top: 0;
+  margin-top: 7px;
+}
+
+.medication-managment-top_img .heading-logo {
+  width: 200px;
+}
+/* temp class until all cards will be unified */
+.heading-logo--padding {
+  padding-top: 50px;
+}
+
+.trainingsec .heading-logo {
+  padding-top: 30px;
+  margin-bottom: 80px;
+}
+.heading-logo img {
+  width: 100%;
+}
+.heading p {
+  color: #5b2d5f;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.imgcol {
+  margin: 10px 0 0;
+}
+.imgcol img {
+  margin: 0 auto;
+}
+.clientColumn li img {
+  width: 100%;
+  height: 196px;
+  border-radius: 50%;
+  object-fit: contain;
+  position: relative;
+  top: -15px;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+
+/* ------------ Main Page Top "Slider" ------------------*/
+
+.semms-section {
+  /* background-image: url('../images/bg_SEMMS.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  padding: 10px 0 80px;
+}
+
+.semms-section .semms-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.semms-wrapper_top-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.semms-wrapper_top-section .semms-item:first-child {
+  margin-right: 10px;
+  position: relative;
+}
+
+.semms-wrapper_top-section .semms-item:first-child:after {
+  content: 'electronic medication administration record (eMAR)';
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 18%;
+  left: 8%;
+  padding: 8px;
+  font-family: "BrandonGrotesque-Black";
+  color: #5b2c60;
+  font-size: .8em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.semms-wrapper_top-section .semms-item:last-child {
+  margin-left: 10px;
+}
+.semms-wrapper_mid-section .semms-item:first-child {
+  margin-right: 100px;
+}
+.semms-wrapper_mid-section .semms-item:last-child {
+  margin-left: 100px;
+}
+.semms-wrapper_mid-section {
+  display: flex;
+  justify-content: center;
+}
+
+.semms-wrapper_bottom-section {
+  display: flex;
+  justify-content: center;
+  margin-top: -76px;
+}
+
+.semms-main_circle {
+  background: #FFD72E;
+  text-align: center;
+  padding: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.semms-main_circle:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+  border: 18px solid #FFD72E;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+}
+.semms-main_circle span {
+  font-family: "BrandonGrotesque-Black";
+  color: #5b2c60;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.semms-section .semms-item {
+  max-width: 200px;
+  flex: 0 0 200px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 12px solid white;
+  position: relative;
+  z-index: 4;
+}
+
+.semms-section .semms-item img {
+  width: 100%;
+}
+
+.carousel-caption.text_fllow_top {
+  top: 30%;
+  left: 9%;
+}
+.carousel-inner > .item.second-slide > img {
+  filter: brightness(90%);
+}
+.carousel-inner > .item.third-slide p {
+  color: #490158;
+  font-size: 30px;
+}
+.carousel-caption.txtbtm.last_flow {
+  top: 60%;
+  left: 12%;
+  width: 50%;
+}
+span.back_circule {
+  background-color: #a9aba8;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: block;
+}
+.footernav span.navbar-right img {
+  width: 400px;
+}
+
+.learn_more.btn.btn-success {
+  background: #fff none repeat scroll 0 0;
+  border-color: #5b2c60;
+  border-radius: 35px;
+  border-width: 2px;
+  color: #5b2c60;
+  font-size: 20px;
+  margin: 45px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-family: "BrandonGrotesque-Bold";
+}
+.learn_more.btn.btn-success:focus,
+.learn_more.btn.btn-success:hover {
+  background: #5b2c60 none repeat scroll 0 0;
+  color: #fff;
+}
+.nopadding {
+  padding: 0;
+}
+.trainingsection {
+  text-align: center;
+}
+.trainingsection img {
+  width: 100%;
+}
+
+.trainingsection > div {
+  position: relative;
+  transition: all 0.4s linear;
+}
+
+.trainingsection > div .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin-left: -40px;
+  margin-top: -28px;
+  width: 80px;
+  height: 56px;
+  background: url(../images/youtube_i.png) no-repeat;
+  background-size: 100% auto;
+  transition: all 0.4s linear;
+}
+
+.trainingsection > div:hover .play-button,
+.trainingsection > div .play-button:hover {
+  background-image: url(../images/youtube_i-hover.png);
+}
+
+.btncolumn {
+  bottom: 40px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.training.btn.btn-success {
+  background: #5b2c60 none repeat scroll 0 0;
+  border-color: #5b2c60;
+  border-radius: 35px;
+  font-size: 24px;
+  padding: 12px 65px;
+  text-transform: uppercase;
+  font-family: "BrandonGrotesque-Bold";
+  position: relative;
+  z-index: 100;
+  transition: all 0.4s linear;
+}
+
+.trainingsection > div:hover .training.btn.btn-success,
+.training.btn.btn-success:hover {
+  background: #fbd805 none repeat scroll 0 0;
+  border-color: #fbd805;
+  color: #232323;
+  outline: none;
+}
+
+.training.btn.btn-success:focus {
+  outline: none;
+}
+.training.seamlessbtn.btn.btn-success {
+  background-image: url("../images/buttonseamless.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 29px 150px;
+}
+.training.seamlessbtn.btn.btn-success:focus,
+.training.seamlessbtn.btn.btn-success:hover {
+  background-image: url("../images/buttonseamless.png");
+  background-color: #5b2c60;
+  border-color: #5b2c60;
+}
+
+.seamlesscertified.contactus {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcfbfc+28,cfc5d2+100 */
+   background: #ffffff; /* Old browsers */
+   background: -moz-linear-gradient(
+     top,
+     #ffffff 0%,
+     #fcfbfc 28%,
+     #cfc5d2 100%
+   ); /* FF3.6-15 */
+   background: -webkit-linear-gradient(
+     top,
+     #ffffff 0%,
+     #fcfbfc 28%,
+     #cfc5d2 100%
+   ); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(
+     to bottom,
+     #ffffff 0%,
+     #fcfbfc 28%,
+     #cfc5d2 100%
+   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfc5d2',GradientType=0 ); /* IE6-9 */
+ }
+
+ .seamlesscertified.contactus p {
+   color: #5b2d5f;
+ }
+
+.homeportal {
+  background-image: url("../images/homeportal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 50px;
+}
+.midcolumn {
+  clear: both;
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.heading.newhead {
+  padding: 80px 0 0;
+}
+.whitebox .heading strong,
+.whitebox .heading p {
+  color: #fff;
+}
+.learn_more.btn.btn-success {
+  color: #fff;
+  border-color: #fff;
+  background: none;
+  text-transform: uppercase;
+  font-family: "BrandonGrotesque-Bold";
+}
+.learn_more.btn.btn-success:hover {
+  color: #833f8e;
+  border-color: #ffda00;
+  background: #ffda00;
+  outline: none;
+}
+.learn_more.btn.btn-success:focus {
+  outline: none;
+  background: none;
+}
+.nav.infobox {
+  text-align: center;
+  margin: 35px auto;
+}
+.nav.infobox--secondary {
+  margin-top: 0;
+}
+.nav.infobox li {
+  margin: 0 0 25px;
+}
+.nav.infobox strong {
+  color: #ffda00;
+  font-size: 25px;
+  font-family: "BrandonGrotesque-Bold";
+  font-weight: normal;
+}
+.nav.infobox p {
+  color: #fff;
+  font-size: 25px;
+}
+.clientColumn {
+  margin: 55px 0 10px;
+}
+.testimonials {
+  text-align: center;
+  z-index: 3;
+  position: relative;
+  background: white;
+}
+
+.testimonials .media-object--badges {
+  width: 100%;
+}
+
+.clientColumn li {
+  display: inline-block;
+  float: none;
+  margin: 0 17px 75px;
+  text-align: center;
+  position: relative;
+}
+
+.training-carousel {
+  position: relative;
+}
+
+.clientColumn li strong {
+  color: #5b2c60;
+  display: inline-block;
+  font-family: "BrandonGrotesque-Bold";
+  font-size: 21px;
+  text-transform: uppercase;
+  width: 185px;
+  margin: 10px 0 0;
+}
+.clientColumn li p {
+  color: #5b2c60;
+  font-size: 25px;
+}
+
+.clientColumn li img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  cursor: pointer;
+}
+.clientColumn li:hover img {
+  filter: none;
+  -webkit-filter: none;
+}
+.testimonials #owl-demo {
+  margin: 60px 0 30px;
+}
+.testimonials .media-body > p {
+  font-size: 23px;
+  line-height: 25px;
+  color: #5b2c60;
+  text-align: left;
+}
+.testimonials .media-body > p a {
+  color: #5b2c60;
+  text-decoration: none;
+}
+.testimonials .media-body > p em {
+  font-size: 18px;
+  font-style: normal;
+  margin: 15px 0 0;
+  display: inline-block;
+  font-family: "BrandonGrotesque-Bold";
+}
+.testimonials #owl-demo .owl-item .item {
+  border: medium none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonials .item .media {
+  margin: 0 0 40px;
+  padding: 0 20px;
+  width: 50%;
+}
+.testimonials .media .media-body {
+  padding-left: 15px;
+}
+hr {
+  border-bottom: 2px solid #fbd805;
+  margin: 0;
+}
+.testimonials .owl-prev {
+  left: 0;
+  position: absolute;
+  right: auto;
+  top: 38px;
+}
+.testimonials .owl-next {
+  left: auto;
+  position: absolute;
+  right: 0;
+  top: 38px;
+}
+.ourpartners img {
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
+}
+.ourpartners {
+  text-align: center;
+  padding: 55px 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.ourpartners img {
+  display: inline-block;
+  margin: 0 16px 0px 0;
+}
+
+.ourpartners {
+  position: relative;
+}
+.ourpartners strong {
+  font-size: 25px;
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-weight: normal;
+}
+
+
+.testimonials .ourpartners .mission-wrapper-paragraph p {
+  text-align: center;
+  font-size: 20px;
+}
+.testimonials .ourpartners {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 1.5s ease;
+  z-index: 1;
+}
+
+.ourpartners .mission-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 100%;
+}
+
+.training-carousel .owl-prev,.training-carousel .owl-next {
+  top: -2%;
+}
+
+footer {
+  background-image: url("../images/footerbg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+  padding: 35px 0 10px;
+  width: 100%;
+}
+footer b {
+  font-size: 30px;
+  font-family: "BrandonGrotesque-Bold";
+  color: #5b2c60;
+}
+address {
+  color: #5b2c60;
+  font-size: 25px;
+  margin: 0;
+}
+address span {
+  display: block;
+  margin: 0 0 15px;
+}
+address i {
+  font-size: 30px;
+}
+address span a,
+address span a:focus,
+address span a:hover {
+  color: #5b2c60;
+  text-decoration: none;
+}
+.footerbox {
+  border-bottom: 2px solid #5b2c60;
+  border-top: 2px solid #5b2c60;
+  margin: 25px 0;
+  padding: 30px 0;
+}
+.followus p {
+  font-size: 30px;
+  font-family: "BrandonGrotesque-Bold";
+  color: #5b2c60;
+}
+.followus .nav > li > a:focus,
+.followus .nav > li > a:hover {
+  background: none;
+}
+.followus .navbar-nav > li > a {
+  padding: 0 5px;
+}
+.followus ul li a i {
+  border-radius: 4px;
+  color: #5b2c60;
+  font-size: 37px;
+  height: 43px;
+  width: 45px;
+  text-align: center;
+}
+.followus ul li a i.fa-facebook {
+  background: #5b2c60 none repeat scroll 0 0;
+  color: #cbcbcb;
+  padding: 12px 0 0;
+}
+.followus ul li a:hover i.fa-facebook {
+  background: #000 none repeat scroll 0 0;
+  color: #fff;
+}
+.followus ul li a i.fa-linkedin {
+  background: #5b2c60 none repeat scroll 0 0;
+  color: #cbcbcb;
+  font-size: 28px;
+  padding: 7px 10px;
+}
+.followus ul li a:hover i.fa-linkedin {
+  background: #000 none repeat scroll 0 0;
+  color: #fff;
+}
+.followus ul li a i.fa-twitter {
+  font-size: 40px;
+  padding: 2px 0;
+}
+.followus ul li a:hover i.fa-twitter {
+  color: #000;
+}
+.followus ul li a i.fa-youtube-play {
+  font-size: 42px;
+  padding: 1px 0;
+}
+.followus ul li a:hover i.fa-youtube-play {
+  color: #000;
+}
+.followus ul li a i.fa-instagram {
+  font-size: 47px;
+  margin: -2px 0;
+}
+.followus ul li a:hover i.fa-instagram {
+  color: #000;
+}
+
+.footernav .nav > li > a {
+  color: #5b2c60;
+  font-size: 20px;
+  font-family: "BrandonGrotesque-Bold";
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.footernav {
+  padding: 20px 0 40px;
+}
+.footernav .nav > li > a:focus,
+.footernav .nav > li > a:hover {
+  background: none;
+  color: #232323;
+}
+.copyright {
+  border-top: 2px solid #5b2c60;
+  text-align: right;
+  padding: 10px 0;
+}
+.copyright span {
+  font-size: 20px;
+  font-family: "brandon_grotesquemedium";
+  color: #5b2c60;
+}
+
+
+
+
+/* ----------------training program-------------------- */
+.trainingprogram {
+  background-image: url("../images/trainingbannerimage.jpg");
+  background-repeat: no-repeat;
+  min-height: 50vw;
+  background-size: cover;
+  background-position: center center;
+}
+
+.btn-div {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-div .btn.btn-success.join:hover
+ {
+  background-color: #64126b;
+  color: white;
+}
+
+.video-wrapper {
+  width: 100%;
+}
+.video-block {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.video-frame {
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+  height: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.video-player {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.trainingsec {
+  color: #fff;
+  text-align: center;
+}
+.trainingsec h1 {
+  margin: 80px 0 100px;
+  font-size: 30px;
+  font-family: "BrandonGrotesque-Black";
+}
+.trainingprogram .trainingsec {
+  padding-top: 40px;
+}
+.trainingprogram .trainingsec h1 {
+  margin-top: 0;
+}
+
+
+.trainingsec p {
+  font-family: "BrandonGrotesque-Black";
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.btn.btn-success.join {
+  background: #ffda00 none repeat scroll 0 0;
+  border-color: #ffda00;
+  border-radius: 35px;
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-size: 25px;
+  margin: 25px 0;
+  padding: 8px 40px;
+  outline: none;
+}
+.btn.btn-success.join:hover {
+  background: #fff none repeat scroll 0 0;
+  color: #64126b;
+  border-color: #fff;
+}
+.imagebox {
+  margin: 80px 0;
+}
+.certified {
+  background-image: url("../images/seamlesspharmacybtn.png");
+  background-position: center center;
+  height: 71px;
+  margin: 0 auto 50px;
+  width: 437px;
+  background-repeat: no-repeat;
+}
+.certificationprocess {
+  margin: 52px 0 100px;
+}
+.processlist {
+  text-align: center;
+  transform: rotateY( 90deg );
+  /* transition: transform 1.5s ease; */
+}
+.processlist img {
+  display: inline-block;
+  max-height: 102px;
+}
+.processlist strong {
+  color: #5b2c60;
+  display: block;
+  font-size: 25px;
+  margin-top: 65px;
+  font-family: "BrandonGrotesque-Black";
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.processlist p {
+  color: #5b2c60;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.certificationprocess .row > p {
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-size: 30px;
+  margin: 0 0 70px;
+  text-align: center;
+}
+/* --------------contactus page--------- */
+.contactus {
+  background-image: url("../images/contactusbg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeportal .heading-logo {
+  width: 250px;
+}
+
+.homeportal .heading.newhead {
+  padding-top: 0;
+  margin-bottom: 60px;
+}
+.maincontainer .white-purple-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcfbfc+28,cfc5d2+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #fcfbfc 28%,
+    #cfc5d2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #fcfbfc 28%,
+    #cfc5d2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #fcfbfc 28%,
+    #cfc5d2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfc5d2',GradientType=0 ); /* IE6-9 */
+}
+
+.white-purple-bg .container p {
+  color: #5b2c60;
+}
+.portalbox {
+  margin: 30px 0 0;
+}
+.contactus .heading strong {
+  color: #fff;
+}
+
+.contactus .txtinforow p {
+  color: #fff;
+  margin: 35px 0 40px;
+  font-size: 25px;
+}
+.contactus .txtinforow p b {
+  display: inline-block;
+  font-family: "BrandonGrotesque-Bold";
+  margin: 0 0 5px;
+}
+.lapiimage {
+  background-image: url("../images/laptop.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+  height: 644px;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  width: 660px;
+}
+.form-group label {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.form-group input {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 25px;
+  height: 53px;
+  text-indent: 20px;
+}
+.infocolumn textarea {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 2px solid #fff;
+  border-radius: 55px;
+  font-size: 30px;
+  text-indent: 20px;
+  box-shadow: none;
+  color: #fff;
+  height: 121px;
+}
+.btn.btn-default.login,
+.btn.btn-default.submit {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 35px;
+  color: #5b2c60;
+  font-size: 25px;
+  margin: 40px auto;
+  padding: 8px 37px;
+  border-color: #fff;
+  font-family: "BrandonGrotesque-Bold";
+  text-align: center;
+}
+.btn.btn-default.login:focus,
+.btn.btn-default.login:hover,
+.btn.btn-default.submit:focus,
+.btn.btn-default.submit:hover {
+  background: #fbd805 none repeat scroll 0 0;
+  border-color: #fbd805;
+  border-radius: 35px;
+  color: #5b2c60;
+  font-size: 25px;
+  margin: 40px auto;
+  padding: 8px 37px;
+  font-family: "BrandonGrotesque-Bold";
+  text-align: center;
+  outline: none;
+}
+.contactus.ct_form {
+  min-height: 540px;
+}
+.contactusform {
+  margin: 55px 0;
+}
+.infocolumn input {
+  margin: 0 10px;
+}
+.infocolumn .btn.btn-default.login {
+  margin: 0 0;
+}
+img.captcha {
+  height: 43px;
+  margin: 0;
+}
+.googlemap.clearfix {
+  margin: 80px 0 100px;
+}
+.followus ul li a img:hover {
+  opacity: 1;
+}
+.followus ul li a img {
+  width: 45px;
+  height: 33px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+.contactus.ct_form ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.contactus.ct_form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+.contactus.ct_form :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+.contactus.ct_form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+.medication-managment-top_img {
+  position: relative;
+  min-height: 70vw;
+  height: auto;
+  /* background-image: url(../images/medication-managment-top-img_1.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.semms-section-wrapper {
+  background-image: url(../images/medication_banner.jpg);
+  background-position: 50%;
+  background-size: cover;
+  max-height: 1900px;
+  background-repeat: no-repeat; 
+}
+
+.medication-managment-top_logo {
+  width: 320px;
+<<<<<<< HEAD
+=======
+  /* padding-top: 18px; */
+>>>>>>> c8c8dc52b6b209fdd867f4ca30eb119bfb425720
+}
+
+.seamlesscertified .text-center img {
+  display: inline-block;
+  padding: 50px 0;
+}
+.form-control:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+.seamlesscertified.contactus {
+  padding: 0 0 30px;
+}
+.seamlesscertified .box {
+  margin: 0 0 70px;
+}
+.descinfo {
+  margin-top: 25px;
+}
+.descinfo p {
+  font-size: 24px;
+  font-family: "BrandonGrotesque-Bold";
+  color: #fff;
+  line-height: 30px;
+}
+
+.ouremar-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.descinfo p.subinfo {
+  font-family: "BrandonGrotesque-Regular";
+}
+
+.animRight-el-med {
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all 1.8s ease;
+}
+.animLeft-el-med {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 1.8s ease;
+}
+<<<<<<< HEAD
+.is-showing {
+  opacity: 100;
+  transform: translateX(0);
+}
+=======
+
+>>>>>>> c8c8dc52b6b209fdd867f4ca30eb119bfb425720
+.barcode img {
+  margin-top: 47px;
+}
+.leadingedge .heading {
+  padding: 90px 0 70px;
+}
+.leadingedge .heading strong {
+  font-family: "BrandonGrotesque-Black";
+}
+<<<<<<< HEAD
+=======
+#leadingedge .img-responsive {
+  opacity: 0;
+  transform: translateY(50%);
+  /* transition: all 1.5s ease; */
+}
+>>>>>>> c8c8dc52b6b209fdd867f4ca30eb119bfb425720
+
+.synMedSection-img {
+  height: 457px;
+  position: relative;
+  overflow: hidden;
+  transform: skewY(-7deg);
+}
+.synMedSection {margin: 90px 0;}
+.synMedSection .wrapper {
+  width: 50%;
+  margin: 80px auto;
+}
+
+.synMedSection .row {
+  position: relative;
+}
+.left-circles {
+  position: absolute;
+  left: -50%;
+  bottom: -62%;
+}
+.right-circles {
+  position: absolute;
+  right: -50%;
+  top: 0;
+}
+.purple-circle {
+  background: #932d9e;
+  background: -moz-linear-gradient(top, #932d9e 0%, #5c2c61 100%);
+  background: -webkit-linear-gradient(top, #932d9e 0%,#5c2c61 100%);
+  background: linear-gradient(to bottom, #932d9e 0%,#5c2c61 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#932d9e', endColorstr='#5c2c61',GradientType=0 );
+}
+.left-circles .purple-circle{
+  width: 93px;
+  height: 160px;
+  border-radius: 0 80px 80px 0;
+}
+
+.right-circles .purple-circle {
+  width: 58px;
+  height: 95px;
+  border-radius: 80px 0 0 80px;
+  position: relative;
+}
+
+.yellow-circle {
+  background: #ffe965;
+  background: -moz-linear-gradient(top, #ffe965 0%, #ffda01 100%);
+  background: -webkit-linear-gradient(top, #ffe965 0%,#ffda01 100%);
+  background: linear-gradient(to bottom, #ffe965 0%,#ffda01 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe965', endColorstr='#ffda02',GradientType=0 );
+}
+.right-circles .yellow-circle {
+  width: 32px;
+  height: 50px;
+  position: absolute;
+  bottom: -20%;
+  left: 20%;
+  border-radius: 25px 0 0 25px;
+}
+
+.left-circles .yellow-circle {
+  width: 32px;
+  margin-left: 56px;
+  height: 50px;
+  border-radius: 0 25px 25px 0;
+}
+
+.synMedSection-img:before {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 150%;
+  top: -90px;
+  left: -56px;
+  z-index: -1;
+  background-image: url("../images/SynMedBG.jpg");
+  background-size: cover;
+  transform: skewY(7deg);
+  background-position: 50% 50%;
+  }
+
+.synMedSection-img > * {
+  transform: skewY(7deg);
+}
+
+.pharmacyimg {
+  margin: 80px 0;
+}
+.pharmacyimg img {
+  display: inline-block;
+}
+.bottomdesc {
+  margin-top: 40px;
+}
+.bottomdesc p {
+  font-size: 25px;
+  font-family: "BrandonGrotesque-Bold";
+  color: #5b2c60;
+  line-height: 45px;
+}
+.leadingedge hr {
+  border-color: #ffda00;
+}
+.bottomdesc p.subinfo {
+  font-family: "brandon_grotesquemedium";
+}
+.carousel-caption.txtbtm {
+  bottom: 39px;
+  top: auto;
+}
+.carousel-caption.txtbtm.last {
+  width: auto;
+}
+.carousel-caption.txtbtm p {
+  font-family: "brandon_grotesquemedium";
+  font-size: 40px;
+  line-height: 45px;
+}
+.carousel-caption.txtbtm.last p {
+  color: #5b2c60;
+}
+
+/* --------------specialized_clinical_team ----------------*/
+
+.specialized_clinical_team {
+  background-color: #592E5E;
+  padding-top: 60px;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+.specialized_clinical_team .img-wrapper {
+  width: 100%;
+  opacity: 0;
+  transition: all 1.5s ease;
+  transform: translateY(50%);
+  z-index: 2;
+  position: relative;
+}
+.specialized_clinical_team .img-wrapper img{
+  width: 100%;
+}
+.specialized_clinical_team h3 {
+  text-transform: uppercase;
+  color: #FED631;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.specialized_clinical_team ul {
+  padding-left: 15px;
+}
+
+.specialized_clinical_team ul > li {
+  font-size: 25px;
+  list-style: none;
+  text-indent: -20px;
+}
+
+.specialized_clinical_team p {font-size: 25px; margin-bottom: 30px;}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.inputError {
+  border-color: red !important;
+}
+
+/* -------------mobile responsive page-------------- */
+@media (max-width: 1600px) {
+  .carousel-caption p {
+    font-size: 25px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 1440px) {
+  .heading {
+    padding: 60px 0 0;
+  }
+  .heading strong {
+    font-size: 26px;
+  }
+  .heading p, .specialized_clinical_team ul > li, .specialized_clinical_team p {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .specialized_clinical_team h3 {
+    font-size: 25px;
+  }
+  .imgcol img {
+    max-width: 70%;
+  }
+  .heading.newhead {
+    padding: 60px 0 0;
+  }
+  .learn_more.btn.btn-success {
+    font-size: 19px;
+    margin: 30px 0;
+    padding: 10px 30px;
+  }
+  .training.btn.btn-success {
+    font-size: 22px;
+  }
+  .training.seamlessbtn.btn.btn-success {
+    background-size: 90% auto;
+    padding: 29px 130px;
+  }
+  .nav.infobox strong {
+    font-size: 24px;
+  }
+  .nav.infobox p {
+    font-size: 22px;
+  }
+  .clientColumn li img {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  footer b {
+    font-size: 26px;
+  }
+  .followus p {
+    font-size: 25px;
+  }
+  .footernav .nav > li > a {
+    font-size: 18px;
+  }
+  .ourpartners {
+    padding: 55px 0 20px;
+  }
+  .descinfo p {
+    font-size: 23px;
+  }
+  .leadingedge .heading {
+    padding: 60px 0 70px;
+  }
+  .leadingedge .clearfix img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .imagebox img {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .processlist img {
+    max-width: 40%;
+  }
+  .processlist strong {
+    margin-top: 35px;
+  }
+  .contactus.ct_form {
+    min-height: 480px;
+  }
+  .trainingsec h1 {
+    font-size: 27px;
+  }
+  .trainingsec p {
+    font-size: 35px;
+  }
+  .certified {
+    background-size: contain;
+    margin: 30px auto;
+    width: 60%;
+  }
+  .clientColumn li strong {
+    font-size: 17px;
+  }
+  .clientColumn li p {
+    font-size: 20px;
+  }
+  .navbar-brand > img {
+    max-width: 90%;
+  }
+  .btn.btn-success.navbar-right.loginbtn {
+    font-size: 20px;
+  }
+  .navbar-default.mainheader .navbar-nav > li > a {
+    font-size: 18px;
+  }
+  .medication-managment-top_img {
+    background-position: 50% 56%;
+    background-size: 114%;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar-default.mainheader .navbar-nav > li > a {
+    font-size: 16px;
+  }
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    width: 300px;
+  }
+  .carousel-caption {
+    width: 70%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .lapiimage {
+    width: 590px;
+  }
+
+  .medication-managment-top_img {
+    background-position: 50% 47%;
+    background-size: 105%;
+    min-height: 900px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    width: auto;
+    height: auto;
+  }
+
+  .navbar-default.mainheader .navbar-nav > .active > a,
+  .navbar-default.mainheader .navbar-nav > .active > a:focus,
+  .navbar-default.mainheader .navbar-nav > .active > a:hover {
+    background: none;
+    color: #fbd805;
+  }
+
+  .btn.btn-success.navbar-right.loginbtn {
+    margin-left: 0;
+  }
+  .mainheader ul {
+    clear: both;
+    float: none !important;
+    margin: 0;
+  }
+  .mainheader #navbar {
+    border: medium none;
+    margin: 20px 0 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .testimonials .item .media {
+    width: 100%;
+  }
+
+  .carousel-indicators {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    width: auto;
+  }
+  .trainingsec h1 {
+    margin: 6vw 0;
+  }
+  .contactus {
+    min-height: auto;
+  }
+  .lapiimage {
+    background-position: center center;
+    background-size: 70vw auto;
+    height: 50vw;
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  .contactus.ct_form {
+    min-height: auto;
+    padding: 0 0 70px;
+  }
+  .seamlesscertified.contactus {
+    text-align: center;
+  }
+  .seamlesscertified img {
+    display: inline-block;
+    width: 100%;
+  }
+  .barcode img {
+    margin-top: 0;
+  }
+  .descinfo {
+    margin-bottom: 20px;
+  }
+  header {
+    min-height: 150px;
+  }
+  .mainheader {
+    padding: 0;
+  }
+  .mainheader.top-nav-collapse {
+    padding: 0;
+  }
+
+  .medication-managment-top_img {
+    min-height: 900px;
+    background-position: 50% 71%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .carousel-caption.txtbtm.last_flow {
+    top: 18%;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-caption.txtbtm.last_flow {
+    top: 0;
+    left: 0;
+  }
+  .carousel-caption.text_fllow_top {
+    top: 0%;
+    left: 0%;
+  }
+  .carousel-caption.txtbtm.last_flow p,
+  .carousel-caption.txtbtm.last_flow p em {
+    color: #fff;
+  }
+}
+@media (max-width: 767px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    width: 300px;
+    margin-left: 10px;
+    padding: 10px 0;
+  }
+
+  .testimonials .ourpartners .mission-wrapper-paragraph p {
+    font-size: 16px;
+  }
+ 
+
+  .ourpartners .mission-wrapper {
+    transform: translate(-50%, -64%);
+    width: 90%;
+  }
+
+  .semms-section .semms-item {
+    flex: 0 0 150px;
+  }
+
+  .semms-wrapper_mid-section .semms-item:first-child {
+    margin-right: 50px;
+  }
+
+  .semms-wrapper_mid-section .semms-item:last-child {
+    margin-left: 50px;
+  }
+  .semms-wrapper_top-section .semms-item:first-child {
+    margin-right: 1px;
+  }
+  .semms-wrapper_top-section .semms-item:last-child {
+    margin-right: 1px;
+  }
+
+  .semms-wrapper_top-section .semms-item:first-child:after {
+    font-size: 0.5em;
+  }
+
+  .semms-wrapper_top-section {
+    margin-bottom: 3px;
+  }
+
+  .semms-wrapper_bottom-section {
+    margin-top: -40px;
+  }
+  .semms-main_circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .semms-main_circle span {
+    font-size: 10px;
+    line-height: 1em;
+  }
+
+  .semms-main_circle:after {
+    width: 305px;
+    height: 305px;
+  }
+
+  .trainingsec .heading-logo {
+    padding-top: 0;
+    max-width: 30%;
+    min-width: 150px;
+    width: 100%;
+  }
+  .navbar-default .navbar-toggle {
+    margin-top: 11px;
+  }
+  .mainheader {
+    padding: 0;
+  }
+  .btn.btn-success.navbar-right.loginbtn {
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-default.mainheader .navbar-nav > li > a {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  .navbar-default.mainheader .navbar-nav > li:last-child > a {
+    border-bottom: none;
+  }
+  .navbar-default.mainheader .navbar-nav > li > a > br {
+    display: none;
+  }
+  .carousel-caption {
+    background: #512557 none repeat scroll 0 0;
+    left: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .carousel-caption p {
+    line-height: 24px;
+    padding: 0 10px;
+  }
+  .heading {
+    padding: 20px 0 0;
+  }
+  .homeportal {
+    padding: 0;
+  }
+  .heading strong {
+    font-size: 23px;
+  }
+  .heading p, .specialized_clinical_team ul > li, .specialized_clinical_team p {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  .heading.newhead {
+    padding: 20px 0 0;
+  }
+  .learn_more.btn.btn-success {
+    font-size: 15px;
+    margin: 15px 0;
+  }
+  .training.btn.btn-success {
+    font-size: 17px;
+  }
+  .training.seamlessbtn.btn.btn-success {
+    background-size: 80% auto;
+    padding: 29px 110px;
+  }
+  
+  .nav.infobox strong {
+    font-size: 21px;
+  }
+  .nav.infobox p {
+    font-size: 19px;
+  }
+  .clientColumn li strong {
+    font-size: 20px;
+  }
+  .clientColumn li p {
+    font-size: 17px;
+  }
+  .testimonials #owl-demo {
+    margin: 28px 0 0;
+  }
+  .testimonials .owl-prev {
+    left: 10px;
+    top: -100px;
+  }
+  .testimonials .owl-next {
+    right: 10px;
+    top: -100px;
+  }
+  .ourpartners {
+    padding: 30px 0;
+  }
+  footer {
+    text-align: center;
+  }
+  .footerbox {
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  footer b {
+    display: block;
+    font-size: 23px;
+  }
+  .followus p {
+    font-size: 23px;
+  }
+  .followus .navbar-nav.nav > li {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .footernav {
+    padding: 0;
+    text-align: center;
+  }
+  .footernav span img {
+    display: inline-block;
+    max-width: 60%;
+  }
+  .footernav .nav > li {
+    display: inline-block;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .copyright span {
+    font-size: 17px;
+  }
+  .followus ul li a i {
+    font-size: 25px !important;
+  }
+  .followus ul li a i.fa-twitter,
+  .followus ul li a i.fa-youtube-play,
+  .followus ul li a i.fa-instagram {
+    padding: 10px 0;
+    font-size: 30px !important;
+  }
+  .clientColumn li {
+    margin: 0 15px 20px;
+  }
+  .trainingsec h1 {
+    font-size: 3vw;
+  }
+  .trainingsec p {
+    font-size: 4vw;
+    line-height: 28px;
+  }
+  .btn.btn-success.join {
+    font-size: 19px;
+    padding: 6px 32px;
+  }
+  .imagebox {
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  .certificationprocess {
+    margin: 22px 0;
+  }
+  .certificationprocess .row > p {
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+  .processlist img {
+    max-width: 190px;
+  }
+  .processlist strong {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .processlist p {
+    font-size: 20px;
+  }
+  .contactus .heading strong {
+    font-size: 21px;
+  }
+  .contactus .heading p {
+    margin: 15px 0;
+  }
+  .form-group label {
+    font-size: 21px;
+  }
+  .btn.btn-default.login,
+  .btn.btn-default.login:focus,
+  .btn.btn-default.login:hover {
+    font-size: 19px;
+    padding: 7px 34px;
+  }
+  .googlemap.clearfix {
+    margin: 10px 0 40px;
+  }
+  .contactus.ct_form {
+    padding: 0;
+  }
+  .descinfo {
+    padding: 0 10px;
+  }
+  .descinfo p {
+    font-size: 21px;
+  }
+  .ouremar-wrapper {
+    max-width: 70%;
+  }
+  .seamlesscertified.contactus {
+    padding: 0;
+  }
+  .seamlesscertified .box {
+    margin: 0 0 30px;
+  }
+  .leadingedge {
+    text-align: center;
+  }
+  .leadingedge .heading {
+    padding: 30px 0;
+  }
+  .pharmacyimg {
+    margin: 20px 0;
+  }
+  .leadingedge img {
+    display: inline-block;
+    max-width: 80%;
+  }
+  .bottomdesc p {
+    font-size: 21px;
+    line-height: 34px;
+  }
+  .carousel-caption.txtbtm {
+    bottom: 60px;
+    top: 0;
+  }
+  .carousel-caption.txtbtm p {
+    font-size: 22px;
+  }
+  .carousel-caption.txtbtm.last p {
+    color: #fff;
+  }
+  address {
+    font-size: 19px;
+  }
+  .contactusform {
+    margin: 25px 0;
+  }
+  header {
+    min-height: 55px;
+  }
+  .testimonials .media-body,
+  .media-left,
+  .media-right {
+    display: block;
+    width: 100%;
+  }
+  .testimonials .media-object {
+    margin: 0 auto;
+  }
+  .testimonials .media .media-body {
+    padding: 0;
+  }
+  .testimonials .media-body > p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .medication-managment-top_img {
+    min-height: 650px;
+    background-position: 50% 48%;
+    background-size: 154%;
+  }
+
+  .medication-managment-top_img .heading-logo {
+    padding-top: 22px;
+  }
+
+  #emar .heading-logo {
+    padding-top: 0;
+<<<<<<< HEAD
+    margin-top: -60px;
+=======
+    margin-top: -30px;
+>>>>>>> c8c8dc52b6b209fdd867f4ca30eb119bfb425720
+  }
+  .semms-section .semms-wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 685px) {
+  .trainingsec .heading-logo {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .medication-managment-top_img {
+    background-position: 50% 40%;
+    background-size: 176%;
+  }
+  .synMedSection .wrapper {
+    width: 88%;
+    margin: 80px auto;
+  }
+  .left-circles {
+    left: -31px;
+    bottom: -145%;
+  }
+  .right-circles {
+    right: -7%;
+    top: -61%;
+  }
+
+  .synMedSection-img:before {
+    
+    height: 150%;
+    top: -30px;
+    left: -20px;
+    z-index: -1;
+  }
+  .synMedSection-img {
+    height: 200px;
+  }
+
+  .ourpartners strong {
+    font-size: 20px;
+  }
+  .testimonials .ourpartners .mission-wrapper-paragraph p {
+    line-height: 18px;
+  }
+
+  .ourpartners .mission-wrapper {
+    width: 98%;
+  }
+<<<<<<< HEAD
+
+  .medication-managment-top_img {
+    background-image: url(../images/1.jpg);
+  }
+
+  .semms-section-wrapper {
+    background-image: none;
+  }
+
+=======
+
+  .medication-managment-top_img {
+    background-image: url(../images/1.jpg);
+  }
+
+  .semms-section-wrapper {
+    background-image: none;
+  }
+
+>>>>>>> c8c8dc52b6b209fdd867f4ca30eb119bfb425720
+  .semms-section {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: 49% 50%;
+  }
+
+  .medication-managment-top_img {
+    min-height: 550px;
+    background-size: cover;
+    background-position: 28%;
+    margin-top: -1px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .infocolumn {
+    text-align: center;
+  }
+<<<<<<< HEAD
+=======
+  #emar .heading-logo {
+    padding-top: 0;
+    margin-top: -31px;
+    width: 150px;
+  }
+>>>>>>> c8c8dc52b6b209fdd867f4ca30eb119bfb425720
+  .medication-managment-top_img {
+    min-height: 265px;
+    background-size: cover;
+    background-position: 54% 0%;
+  }
+  .infocolumn input {
+    width: 100%;
+  }
+
+  .semms-section .semms-item {
+    border: 7px solid white;
+  }
+
+  .semms-wrapper_top-section .semms-item:first-child:after {
+    font-size: 0.5em;
+    top: 12%;
+    left: 3%;
+  }
+
+  .semms-section .semms-item {
+    flex: 0 0 122px;
+  }
+  .semms-main_circle:after {
+    width: 254px;
+    height: 254px;
+  }
+  .testimonials .ourpartners .mission-wrapper-paragraph p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .ourpartners strong {
+    font-size: 15px;
+  }
+  
+  .captcha {
+    display: block;
+    margin: 20px auto;
+  }
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    width: 220px;
+    padding: 15px 0 0;
+  }
+  .processlist img {
+    max-width: 100px;
+  }
+  .medication-managment-top_img {
+    /* min-height: 600px; */
+    /* background-position: 55% 48%;
+    background-size: 229%; */
+  }
+
+  .medication-managment-top_logo {
+    width: 220px;
+  }
+}
+
+@media (max-width: 400px) {
+  .medication-managment-top_img {
+    /* min-height: 450px;
+    background-size: 271%;
+    background-position: 53% 26%; */
+  }
+  
+
+  .ourpartners strong {
+    font-size: 10px;
+  }
+  .testimonials .ourpartners .mission-wrapper-paragraph p {
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .trainingsec .heading-logo {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .medication-managment-top_img {
+    min-height: 70vw;
+  }
+
+  .synMedSection-img:before {
+    height: 180%;
+    top: -38%;
+    left: -56px;
+    }
+}
+
+@media (min-width: 1091px) {
+  .medication-packages-img {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 769px) {
+  .clientColumn li p {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  padding-left: 20px;
+  color: #5b2d5f;
+  font-size: 25px;
+  list-style: none;
+  text-indent: -20px;
+}
+.list li:before {
+  content: "";
+  display: inline-block;
+  margin: 11px 10px 0 0;
+  width: 10px;
+  height: 10px;
+  background: #ffcb05;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+
+/* Modals */
+
+/* Online Training Modal */
+
+.modal-header .close {
+  margin-top: -20px;
+}
+
+.modal-header .close:focus,
+.modal-header .close:hover {
+  outline: none;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+  overflow: auto;
+}
+
+.modal {
+  padding-right: 0 !important;
+}
+
+.modal-title {
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-size: 16px;
+  margin: 0;
+  text-align: leftl=l
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+      width: 726px;
+      margin: 30px auto;
+  }
+}
+
+
+/*modal-form */
+.modal-form {
+  background: url(../images/contactusbg.jpg) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+}
+
+.modal-form .modal-body {
+  padding: 30px;
+}
+
+.modal-form .modal-title {
+  color: inherit;
+  text-align: center;
+}
+
+#sign_up_modal address, #sign_up_modal address a{
+  color: white;
+}
+#sign_up_modal address .no-margin {
+  margin-bottom: 0;
+}
+#sign_up_modal address span {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 50px;
+}
+
+.modal-form .modal-header {
+  padding: 15px 30px;
+}
+
+.modal-form .modal-header .close {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-form legend {
+  border: none;
+  color: inherit;
+}
+
+.modal-form .form-horizontal .form-group label {
+  margin-left: 0;
+}
+
+.modal-form textarea.form-control {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 25px;
+  text-indent: 20px;
+}
+
+.modal-form  ::-webkit-input-placeholder {
+  color: #fff;
+}
+.modal-form  ::-moz-placeholder {
+  color: #fff;
+}
+.modal-form  :-ms-input-placeholder {
+  color: #fff;
+}
+.modal-form  :-moz-placeholder {
+  color: #fff;
+}
+
+.is-showing {
+  opacity: 100 !important;
+  transform: translateX(0) !important;
+  transition: all 1.5s ease;
+}

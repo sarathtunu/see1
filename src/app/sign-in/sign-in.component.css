@@ -1,0 +1,181 @@
+/*.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.fade {
+    opacity: 1;
+    display: block;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+.modal {
+    padding-right: 0 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.modal-title {
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-size: 16px;
+  margin: 0;
+  text-align: leftl=l
+}
+*/
+.fade {
+  opacity: 1;
+  display: block;
+  -webkit-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+}
+.modal-header .close {
+  margin-top: -20px;
+}
+
+.modal-header .close:focus,
+.modal-header .close:hover {
+  outline: none;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+  overflow: auto;
+}
+
+.modal {
+  padding-right: 0 !important;
+}
+
+.modal-title {
+  color: #5b2c60;
+  font-family: "BrandonGrotesque-Bold";
+  font-size: 16px;
+  margin: 0;
+  text-align: leftl=l
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+      width: 726px;
+      max-width: 726px;
+      margin: 30px auto;
+  }
+}
+
+
+/*modal-form */
+.modal-form {
+  background: url('../../assets/images/contactusbg.jpg') no-repeat center top;
+  background-size: cover;
+  color: #fff;
+}
+
+.modal-form .modal-body {
+  padding: 30px;
+}
+
+.modal-form .modal-title {
+  color: inherit;
+  text-align: center;
+}
+
+#sign_up_modal address, #sign_up_modal address a{
+  color: white;
+}
+#sign_up_modal address .no-margin {
+  margin-bottom: 0;
+}
+#sign_up_modal address span {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 50px;
+}
+
+.modal-form .modal-header {
+  padding: 15px 30px;
+}
+
+.modal-form .modal-header .close {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-form legend {
+  border: none;
+  color: inherit;
+}
+
+.modal-form .form-horizontal .form-group label {
+  margin-left: 0;
+}
+
+.modal-form textarea.form-control {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 35px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 25px;
+  text-indent: 20px;
+}
+
+.modal-form  ::-webkit-input-placeholder {
+  color: #fff;
+}
+.modal-form  ::-moz-placeholder {
+  color: #fff;
+}
+.modal-form  :-ms-input-placeholder {
+  color: #fff;
+}
+.modal-form  :-moz-placeholder {
+  color: #fff;
+}
+
+.is-showing {
+  opacity: 100 !important;
+  transform: translateX(0) !important;
+  transition: all 1.5s ease;
+}
+
+.btn.btn-default.login,
+.btn.btn-default.submit {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 35px;
+  color: #5b2c60;
+  font-size: 25px;
+  margin: 40px auto;
+  padding: 8px 37px;
+  border-color: #fff;
+  font-family: "BrandonGrotesque-Bold";
+  text-align: center;
+}
+.btn.btn-default.login:focus,
+.btn.btn-default.login:hover,
+.btn.btn-default.submit:focus,
+.btn.btn-default.submit:hover {
+  background: #fbd805 none repeat scroll 0 0;
+  border-color: #fbd805;
+  border-radius: 35px;
+  color: #5b2c60;
+  font-size: 25px;
+  margin: 40px auto;
+  padding: 8px 37px;
+  font-family: "BrandonGrotesque-Bold";
+  text-align: center;
+  outline: none;
+}
